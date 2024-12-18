@@ -26,3 +26,4 @@ process.exit(); });
 
 app.listen(process.env.PORT,()=>
 console.log(`app executer sur le port ${process.env.PORT}`))
+module.exports = app;
